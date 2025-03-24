@@ -1,0 +1,33 @@
+# Node.js dependencies
+
+node_modules/
+\*.log
+dist/
+.build/
+
+# Python dependencies
+
+env/
+**pycache**/
+_.pyc
+_.pyo
+\*.pyd
+
+# Environment variables
+
+.env
+.env.local
+.env.\*.local
+
+# Build artifacts
+
+/build
+/static
+.DS_Store
+
+# IDE and editor files
+
+.vscode/
+.idea/
+\*.swp
+.cursorignore
